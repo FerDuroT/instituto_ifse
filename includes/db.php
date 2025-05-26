@@ -6,6 +6,9 @@ define('DB_PASSWORD', '');
 define('DB_NAME', 'instituto_ifse');
 
 // Realiza la conexión
+
+// Usuarios/Password ejemplo: lucasnovato@hotmail.com Passw0rd
+
 try {
     $pdo = new PDO("mysql:host=" . DB_SERVER . ";dbname=" . DB_NAME, DB_USERNAME, DB_PASSWORD);
     // Establecer el modo de error de PDO a excepción
